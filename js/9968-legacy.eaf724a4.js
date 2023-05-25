@@ -1,0 +1,1 @@
+"use strict";(self["webpackChunkbasketballdiary_frontend"]=self["webpackChunkbasketballdiary_frontend"]||[]).push([[9968],{89968:function(){}}]);
