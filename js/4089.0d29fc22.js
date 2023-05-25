@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkbasketballdiary_frontend"]=self["webpackChunkbasketballdiary_frontend"]||[]).push([[4089],{8119:function(a,e,n){var s=n(680);e["Z"]=s.Z}}]);
+//# sourceMappingURL=4089.0d29fc22.js.map

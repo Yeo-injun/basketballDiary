@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkbasketballdiary_frontend"]=self["webpackChunkbasketballdiary_frontend"]||[]).push([[3349],{3349:function(e,n,t){t.r(n),t.d(n,{default:function(){return f}});var r=function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("div")},u=[],l={setup(){return{}}},a=l,s=t(1001),c=(0,s.Z)(a,r,u,!1,null,"d3cb5e76",null),f=c.exports}}]);
+//# sourceMappingURL=3349.840ce513.js.map
