@@ -136,12 +136,8 @@ public class GameController {
             @PathVariable("quarterCode") String quarterCode,
             @RequestParam(name = "homeAwayCode", required = false) String homeAwayCode
     ) {
-        GetGameEntryRequest request = new GetGameEntryRequest()
-                .gameSeq(gameSeq)
-                .quarterCode(quarterCode)
-                .homeAwayCode(homeAwayCode);
-
-        GetGameEntryResponse resBody = gameJoinManagerService.getGameEntry(request);
+        GetGameEntryRequest request = new GetGameEntryRequest( gameSeq, quarterCode, homeAwayCode );
+        GetGameEntryResponse resBody = gameJoinManagerService.getGameEntry( request );
         return ResponseEntity.ok(resBody);
     }
 

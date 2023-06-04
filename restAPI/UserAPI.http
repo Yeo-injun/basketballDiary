@@ -9,3 +9,8 @@ Content-Type: application/json
   "password" : "1234"
 }
 
+###  API006 팀원이 아닌 사용자 조회
+GET http://localhost:8080/api/users/exclusion/team/10
+Content-Type: application/json
+
+

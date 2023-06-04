@@ -34,9 +34,9 @@ Content-Type : application/json
 
 ###
 ## API035 게임참가 선수등록하기
-POST http://127.0.0.1:8080/api/games/2/gameJoinTeam/4/players
+POST http://127.0.0.1:8080/api/games/2/homeAwayCode/01/players
 Content-Type : application/json
-Set-Cookie: basketballDiary=917BF03C473C5BEB4D116FDBF6AED81C; Path=/; Secure; HttpOnly; SameSite=None
+# Set-Cookie: basketballDiary=917BF03C473C5BEB4D116FDBF6AED81C; Path=/; Secure; HttpOnly; SameSite=None
 
 {
     "gameJoinPlayers" : [
@@ -174,7 +174,7 @@ Content-Type : application/json
 
 ###
 ## API061 게임참가선수 조회하기
-GET http://127.0.0.1:8080/api/games/2/players?homeAwayCode=02
+GET http://127.0.0.1:8080/api/games/42/players?homeAwayCode=01
 Content-Type : application/json
 
 
@@ -205,3 +205,9 @@ Set-Cookie: basketballDiary=167BD2DCCD438A3C4FCE30A080C43368;
 {
     "userSeq" : 7
 }
+
+
+###
+## API057 게임참가팀원 조회하기
+GET http://127.0.0.1:8080/api/games/42/teamMembers?homeAwayCode=01
+Content-Type : application/json
